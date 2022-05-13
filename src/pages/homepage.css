@@ -1,0 +1,124 @@
+.top-banner{
+    max-width: 100%;
+    border-bottom: 1px solid;
+    display: flex;
+    padding: 20px;
+}
+
+.user-delete-button{
+    position: relative !important;
+    top: -130px !important;
+    left: 70px !important;
+}
+
+.employee-tab{
+    width: 100px;
+    height: 120px;
+    margin: 4px;
+    padding: 4px;
+    outline-style: solid;
+}
+
+.download-box{
+    margin-left: auto;
+    margin-right: 10px;
+    min-width: 200px;
+}
+
+.corner-logo{
+    height: 80px;
+    max-width: auto;
+}
+
+.left-text{
+    margin-left: 20px;
+}
+
+#home-body{
+    display: flex;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #home-body {
+        flex-wrap: wrap;
+    }
+}
+
+#user-form{
+    padding-left: 10px;
+}
+
+#tasks{
+    margin-left: 5px;
+}
+
+#users{
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.btn-delete{
+    all: unset;
+    background-color: red;
+    padding: 10px;
+    box-shadow: 2px 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-delete:hover{
+    box-shadow: 1px 2px;
+}
+
+.btn-delete:active{
+    box-shadow: 0px 0px;
+}
+
+.btn-delete:focus{
+    box-shadow: 1px 2px;
+}
+
+.hover-hint {
+    background-color: rgb(247, 247, 59) !important;
+}
+
+.btn-submit{
+    all: unset;
+    background-color: rgb(0, 183, 255);
+    padding: 10px;
+    box-shadow: 2px 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    box-shadow: 1px 2px;
+}
+
+.btn-submit:active{
+    box-shadow: 0px 0px;
+}
+
+.btn-submit:focus{
+    box-shadow: 1px 2px;
+}
+
+.btn-empty{
+    all: unset;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .w-100 {
+        margin-top: 20px;
+        width: 200px;
+    }
+}
+
+body { padding: 0; margin: 0; }
